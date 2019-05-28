@@ -1,0 +1,57 @@
+
+{
+    "lectures":[
+        {
+            "section":"??",
+            "days":"??",
+            "room":"??",
+            "time":"??"
+        }
+    ],
+    "recitations":[
+        {
+            "section":"??",
+            "days_time":"??",
+            "location":"??",
+            "ta_1":"??",
+            "ta_2":"??"
+        },
+        {
+            "section":"??",
+            "days_time":"??",
+            "location":"??",
+            "ta_1":"??",
+            "ta_2":"??"
+        }
+    ],
+    " labs":[
+        {
+            "section":"??",
+            "day_time":"??",
+            "location":"??",
+            "ta_1":"??",
+            "ta_2":"??"
+        },
+        {
+            "section":"??",
+            "day_time":"??",
+            "location":"??",
+            "ta_1":"??",
+            "ta_2":"??"
+        },
+        {
+            "section":"??",
+            "day_time":"??",
+            "location":"??",
+            "ta_1":"??",
+            "ta_2":"??"
+        },
+        {
+            "section":"??",
+            "day_time":"??",
+            "location":"??",
+            "ta_1":"??",
+            "ta_2":"??"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+
+{
+    "startingMondayMonth":"8",
+    "startingMondayDay":"27",
+    "endingFridayMonth":"12",
+    "endingFridayDay":"12",
+    "holidays":[
+    ],
+    "lectures":[
+    ],
+    "hws":[
+        {
+            "months":"5",
+            "day":"2",
+            "title":"asd",
+            "topic":"asd",
+            "link":"https://www.stonybrook.edu/commcms/registrar/calendars/academic_calendars",
+            "time":"",
+            "criteria":""
+        },
+        {
+            "months":"5",
+            "day":"2",
+            "title":"",
+            "topic":"",
+            "link":"https://www.stonybrook.edu/commcms/registrar/calendars/academic_calendars",
+            "time":"",
+            "criteria":""
+        },
+        {
+            "months":"5",
+            "day":"2",
+            "title":"",
+            "topic":"",
+            "link":"https://www.stonybrook.edu/commcms/registrar/calendars/academic_calendars",
+            "time":"",
+            "criteria":""
+        }
+    ],
+    "recitations":[
+    ],
+    "labs":[
+    ],
+    "references":[
+    ]
+}

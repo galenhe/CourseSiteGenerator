@@ -1,0 +1,20 @@
+
+{
+    "startHour":"9",
+    "endHour":"20",
+    "instructor":{
+        "name":"Gary",
+        "link":"googleccm",
+        "email":"g@gmil.com",
+        "room":"101",
+        "photo":"./images/RichardMcKenna.jpg",
+        "hours":[
+        ]
+    },
+    "grad_tas":[
+    ],
+    "undergrad_tas":[
+    ],
+    "officeHours":[
+    ]
+}

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file provides all the text to be used when the application
+    is to be displayed in English.
+-->
+<properties>
+    <property_list>
+
+        <!-- ENGLISH LANGUAGE SETTINGS FOR DESKTOP JAVA FRAMEWORK CONTROLS -->
+
+        <!-- WELCOME DIALOG TEXT -->
+        <property name="WELCOME_DIALOG_TITLE"               value="Bienvenue au générateur de site de cours"></property>
+        <property name="WELCOME_DIALOG_RECENT_WORK_LABEL"   value="Travail récent"></property>
+        <property name="WELCOME_DIALOG_NEW_BUTTON_TEXT"  value="Créer un nouveau site de cours"></property>
+
+        <!-- GENERIC APP ERROR MESSAGES -->
+        <property name="APP_ERROR_TITLE"            value="Erreur d'application"></property>
+        <property name="APP_ERROR_CONTENT"          value="Une erreur s'est produite"></property>
+
+        <!-- PROPERTIES ERROR MESSAGES -->
+        <property name="PROPERTIES_ERROR_TITLE"     value="Erreur du fichier de propriétés"></property>
+        <property name="PROPERTIES_ERROR_CONTENT"   value="Erreur lors du chargement d'un fichier de propriétés"></property>
+
+        <!-- FILE TOOLBAR TOOLTIPS -->
+        <property name="NEW_BUTTON_TOOLTIP"         value="Nouveau site de cours"></property>
+        <property name="LOAD_BUTTON_TOOLTIP"        value="Charger le site du cours"></property>
+        <property name="CLOSE_BUTTON_TOOLTIP"       value="Fermer le site du cours"></property>
+        <property name="SAVE_BUTTON_TOOLTIP"        value="Enregistrer le site du cours"></property>
+        <property name="EXPORT_BUTTON_TOOLTIP"      value="Site du cours export"></property>
+        <property name="EXIT_BUTTON_TOOLTIP"        value="sortie"></property>
+
+        <!-- CLIPBOARD TOOLBAR TOOLTIPS -->
+        <property name="CUT_BUTTON_TOOLTIP"         value="chIp"></property>
+        <property name="COPY_BUTTON_TOOLTIP"        value="copy"></property>
+        <property name="PASTE_BUTTON_TOOLTIP"       value="paste"></property>
+
+        <!-- UNDO TOOLBAR TOOLTIPS -->
+        <property name="UNDO_BUTTON_TOOLTIP"        value="Undo"></property>
+        <property name="REDO_BUTTON_TOOLTIP"        value="Redo"></property>
+
+        <!-- HELP TOOLBAR TOOLTIPS -->
+        <property name="HELP_BUTTON_TOOLTIP"        value="Aidez-moi"></property>
+        <property name="LANGUAGE_BUTTON_TOOLTIP"    value="Changer de langue"></property>
+        <property name="ABOUT_BUTTON_TOOLTIP"       value="sur"></property>
+
+        <!-- NEW FEEDBACK DIALOGS -->	
+        <property name="NEW_SUCCESS_TITLE"      value="Nouveau complet"></property>
+        <property name="NEW_SUCCESS_CONTENT"	value="Travail créé mais pas encore enregistré"></property>
+        <property name="NEW_ERROR_TITLE"        value="Avertissement: erreur"></property>
+        <property name="NEW_ERROR_CONTENT"      value="Erreur survenue créée Nouveau travail"></property>
+
+        <!-- LOAD FEEDBACK DIALOGS -->
+        <property name="LOAD_WORK_TITLE"        value="Charge de travail"></property>
+        <property name="LOAD_SUCCESS_TITLE"     value="Chargement terminé></property>
+        <property name="LOAD_SUCCESS_CONTENT"   value="Fichier chargé avec succès"></property>
+        <property name="LOAD_ERROR_TITLE"       value="erreur de chargement"></property>        
+        <property name="LOAD_ERROR_CONTENT"     value="Le chargement a échoué."></property>
+
+        <!-- SAVE FEEDBACK DIALOGS -->
+        <property name="SAVE_WORK_TITLE"        value="sauvegarder le travail"></property>
+        <property name="SAVE_SUCCESS_TITLE"     value="sauvegarde complète"></property>
+        <property name="SAVE_SUCCESS_CONTENT"   value="Le fichier est enregistré"></property>
+        <property name="SAVE_ERROR_TITLE"       value="L'enregistrement a échoué"></property>
+        <property name="SAVE_ERROR_CONTENT"     value="L'enregistrement a échoué. Probablement en raison d'un problème d'accès au fichier"></property>
+        <property name="SAVE_VERIFY_TITLE"	value="Enregistrer le travail non enregistré?"></property>
+        <property name="SAVE_VERIFY_CONTENT"	value="voudriez-vous sauver?"></property>
+
+        <!-- ABOUT DIALOG -->
+        <property name="ABOUT_TITLE"            value="Sur"></property>
+        <property name="ABOUT_CONTENT"          value="CSG - générateur de site de cours © 2018"></property>
+
+
+        <!-- ENGLISH LANGUAGE SETTINGS SPECIFICALLY FOR TDLM CONTROLS -->
+
+        <!-- LANGUAGE-DEPENDENT TEXT FOR OH WORKSPACE CONTROLS -->
+        <property name="CSG_ALL_RADIO_BUTTON_TEXT"                      value="Tout"></property>
+        <property name="CSG_UNDERGRADUATE_RADIO_BUTTON_TEXT"            value="Premier cycle"></property>
+        <property name="CSG_GRADUATE_RADIO_BUTTON_TEXT"                 value="Diplômé"></property>
+        
+        <property name="CSG_BANNER_HEADER_TEXT"                         value="Bannière"></property>
+        <property name="CSG_PAGES_HEADER_TEXT"                          value="Des pages"></property>
+        <property name="CSG_STYLE_HEADER_TEXT"                          value="Stysh"></property>
+        <property name="CSG_INSTRUCTOR_HEADER_TEXT"                     value="Instructeur"></property>
+        <property name="CSG_NAME_TEXT_FIELD_HEADER_TEXT"                value="prénom"></property>
+        
+        <property name="CSG_SUBJECT_LABEL_TEXT"                         value="Assujettir"></property>
+        <property name="CSG_NUMBER_LABEL_TEXT"                          value="Nombre"></property>
+        <property name="CSG_SEMESTER_LABEL_TEXT"                        value="Semestre"></property>
+        <property name="CSG_YEAR_LABEL_TEXT"                            value="Années"></property>
+        
+        <property name="CSG_TITLE_LABEL_TEXT"                           value="Titre:"></property>
+        <property name="CSG_EXPORT_DIR_LABEL_TEXT"                      value="Vous exportez"></property>
+        
+        <property name="CSG_PAGES_HOME_LABEL_TEXT"                      value="Accueil"></property>
+        <property name="CSG_PAGES_SYLLABUS_LABEL_TEXT"                  value="Programme"></property>
+        <property name="CSG_PAGES_SCHEDULE_LABEL_TEXT"                  value="Programme"></property>
+        <property name="CSG_PAGES_HOMEWORK_LABEL_TEXT"                  value="Devoirs"></property>
+
+        <property name="CSG_FAVICON_ICON_BUTTON_TEXT"                   value="Favicon"></property>
+        <property name="CSG_NAVBAR_ICON_BUTTON_TEXT"                    value="NavBar Image"></property>
+        <property name="CSG_LEFT_FOOTER_ICON_BUTTON_TEXT"                value="Left Footer Image"></property>
+        <property name="CSG_RIGHT_FOOTER_ICON_BUTTON_TEXT"                value="Right Footer Image"></property>
+        
+
+        <property name="CSG_FONTS_AND_COLORS_LABEL_TEXT"                value ="Polices et couleurs css"></property>
+        <property name="CSG_STYLE_NOTE_TEXT"                            value ="Remarque: les feuilles de style doivent être placées dans work / css."></property>
+ 
+        <!-- Instructor -->
+        <property name="CSG_NAME_TEXT_FIELD_HEADER_TEXT"    value ="Nombre"></property>
+        <property name="CSG_ROOM_TEXT_FIELD_HEADER_TEXT"    value ="Room"></property>
+        <property name="CSG_EMAIL_TEXT_FIELD_HEADER_TEXT"    value ="Email"></property>
+        <property name="CSG_HOME_PAGE_TEXT_FIELD_HEADER_TEXT"    value ="Hombre Page"></property>
+
+        
+        
+        <!-- TAB 3 -->
+        <!-- Lectures Table1-->
+        <property name ="CSG_LECTURES_HEADER_TEXT"             value="Lectures"></property>
+        <property name ="CSG_SECTION_TABLE_COLUMN_TEXT"     value="Secto"></property>
+        <property name ="CSG_DAYS_TABLE_COLUMN_TEXT"     value="Lunes"></property>
+        <property name ="CSG_TIME_TABLE_COLUMN_TEXT"     value="Tinese"></property>
+        <property name ="CSG_ROOM_TABLE_COLUMN_TEXT"     value="Roo"></property>
+        
+        <!-- Recitations table-->
+        <property name ="CSG_RSECTION_TABLE_COLUMN_TEXT"     value="Sec"></property>
+        <property name ="CSG_RDAYS_TABLE_COLUMN_TEXT"     value="Lunes"></property>
+        <property name ="CSG_RROOM_TABLE_COLUMN_TEXT"     value="Room"></property>
+        <property name ="CSG_RTA1_TABLE_COLUMN_TEXT"     value="TA1"></property>
+        <property name ="CSG_RTA2_TABLE_COLUMN_TEXT"     value="TA2"></property>
+        
+        <!-- Labs Table-->
+        <property name ="CSG_LSECTION_TABLE_COLUMN_TEXT"     value="Sec"></property>
+        <property name ="CSG_LDAYS_TABLE_COLUMN_TEXT"     value="Lunes"></property>
+        <property name ="CSG_LROOM_TABLE_COLUMN_TEXT"     value="Room"></property>
+        <property name ="CSG_LTA1_TABLE_COLUMN_TEXT"     value="Ta1"></property>
+        <property name ="CSG_LTA2_TABLE_COLUMN_TEXT"     value="Ta2"></property>
+        
+        
+        <!-- 4 - Office Hours Tab -->
+        <property name ="CSG_TAs_HEADER_TEXT"           value="TAs"></property>
+        <property name ="CSG_REMOVE_TA_BUTTON_TEXT"          value="-"></property>
+        <property name ="CSG_TA_NAME_TABLE_COLUMN_TEXT"     value="Nombre"></property>
+        <property name ="CSG_TA_EMAIL_TABLE_COLUMN_TEXT"     value="Email"></property>
+        <property name ="CSG_TA_TIME_SLOTS_TABLE_COLUMN_TEXT"     value="Time slots"></property>
+        <property name ="CSG_TA_TYPE_TABLE_COLUMN_TEXT"     value="Type"></property>
+        
+        <property name="CSG_ADD_TA_BUTTON_TEXT"     value="Add TA"></property>
+        
+        <property name="CSG_OFFICE_HOURS_START_TIME_LABEL_TEXT"     value="Heure de début"></property>
+        <property name="CSG_OFFICE_HOURS_END_TIME_LABEL_TEXT"     value="Heure de fin"></property>
+        <property name="CSG_OFFICE_HOURS_HEADER_TEXT"     value="Heures de travail"></property>
+        
+        
+        <property name="CSG_START_TIME_TABLE_COLUMN_TEXT"    value="Heure de début"></property>
+        <property name="CSG_END_TIME_TABLE_COLUMN_TEXT"      value="Heure de fin"></property>
+        <property name="CSG_MONDAY_TABLE_COLUMN_TEXT"        value="Lundi"></property>
+        <property name="CSG_TUESDAY_TABLE_COLUMN_TEXT"       value="Mardi"></property>
+        <property name="CSG_WEDNESDAY_TABLE_COLUMN_TEXT"     value="Mercredi"></property>
+        <property name="CSG_THURSDAY_TABLE_COLUMN_TEXT"      value="Jeudi"></property>
+        <property name="CSG_FRIDAY_TABLE_COLUMN_TEXT"        value="Vendredi"></property>
+        
+        
+        
+        <!-- Tab 5 - Scedule -->
+        <property name="CSG_CALENDAR_BOUNDARIES_HEADER_TEXT"    value="Limites du calendrier"></property>
+        <property name="CSG_CALENDAR_BOUNDARIES_START_DAY_TEXT" value="À partir de lundi"></property>
+        <property name="CSG_CALENDAR_BOUNDARIES_ENDING_DAY_TEXT" value="À partir de vendredi"></property>
+        
+        <property name="CSG_SCHEDULE_ITEMS_HEADER_TEXT"      value ="Élément de calendrier"></property>
+        <property name="CSG_DELETE_SCHEDULE_ITEM_BUTTON_TEXT"   value="+"></property>
+        <property name="CSG_ADD_EDIT_HEADER_TEXT"                  value="Ajouter / Modifier"></property>
+        
+        <property name="CSG_TYPE_TABLE_COLUMN_TEXT"                  value="Type"></property>
+        <property name="CSG_DATE_TABLE_COLUMN_TEXT"                  value="Rendez-vous amoureux"></property>
+        <property name="CSG_TITLE_TABLE_COLUMN_TEXT"                  value="Titre"></property>
+        <property name="CSG_TOPIC_TABLE_COLUMN_TEXT"                  value="Sujet"></property>
+        
+        <property name="CSG_ADD_EDIT_TYPE_HEADER_TEXT"                  value="Typo"></property>
+        <property name="CSG_ADD_EDIT_DATE_HEADER_TEXT"                  value="Rendez-vous amoureux:"></property>
+        <property name="CSG_ADD_EDIT_TITLE_HEADER_TEXT"                  value="Titre:"></property>
+        <property name="CSG_ADD_EDIT_TOPIC_HEADER_TEXT"                  value="Sujet:"></property>
+        <property name="CSG_ADD_EDIT_LINK_HEADER_TEXT"                  value="Lien:"></property>
+       
+        <property name="CSG_ADD_EDIT_UPDATE_BUTTON_TEXT"                  value="ajouter / mettre à jour"></property>
+        <property name="CSG_ADD_EDIT_CLEAR_BUTTON_TEXT"                  value="clair"></property>
+        
+        
+        
+        <!-- ERROR DIALOG -->
+        <property name="CSG_NO_TA_SELECTED_TITLE"        value="Aucun TA sélectionné"></property>
+        <property name="CSG_NO_TA_SELECTED_CONTENT"      value="Possible uniquement si Ta est sélectionné"></property>
+
+        <!-- EDIT TA DIALOG -->
+        <property name="OH_TA_DIALOG_HEADER_LABEL_TEXT" value="Edit Teaching Assistant"></property>
+        <property name="OH_TA_DIALOG_NAME_LABEL_TEXT" value="Name: "></property>
+        <property name="OH_TA_DIALOG_EMAIL_LABEL_TEXT" value="Email: "></property>
+        <property name="OH_TA_DIALOG_TYPE_LABEL_TEXT" value="Type: "></property>
+        <property name="OH_TA_DIALOG_GRAD_RADIO_BUTTON_TEXT" value="Graduate"></property>
+        <property name="OH_TA_DIALOG_UNDERGRAD_RADIO_BUTTON_TEXT" value="Undergraduate"></property>
+        <property name="OH_TA_DIALOG_OK_BUTTON_TEXT" value="Ok"></property>
+        <property name="OH_TA_DIALOG_CANCEL_BUTTON_TEXT" value="Cancel"></property>
+     
+        <!-- TO SWITCH BACK TO ANOTHER LANGUAGE -->
+        <property name="LANGUAGE_DIALOG_TITLE"          value="Sélection de la langue de l'application"></property>
+        <property name="LANGUAGE_DIALOG_HEADER_TEXT"    value="Choisissez une langue"></property>
+        <property name="LANGUAGE_DIALOG_CONTENT_TEXT"   value="Sutilisateur"></property>
+
+        <property name="WORK_FILE_EXT"          value="*.ta"></property>
+	<property name="WORK_FILE_EXT_DESC"     value="Assistant d'enseignement"></property>
+
+    </property_list>
+    
+    <!-- TDLM COMBO BOX CHOICES -->
+    <property_options_list>
+        <property_options name="LANGUAGE_OPTIONS">
+            <option>English</option>
+            <option>Klingon</option>
+        </property_options>
+    </property_options_list>
+</properties>

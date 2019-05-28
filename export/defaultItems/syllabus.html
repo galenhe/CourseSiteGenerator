@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://www3.cs.stonybrook.edu/~cse219/syllabus.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <title>CSE 219 - Syllabus</title>
+        
+        <link href="./syllabus_files/course_homepage_layout.css" rel="stylesheet" type="text/css">
+        <link href="./syllabus_files/sea_wolf.css" rel="stylesheet" type="text/css">
+
+        <!-- LINK TO OUR JavaScript FILE AND JQuery -->
+        <script src="./syllabus_files/jquery.min.js.download"></script>
+        <script src="./syllabus_files/PageBuilder.js.download"></script>
+        <script src="./syllabus_files/OfficeHoursBuilder.js.download"></script>
+        <script src="./syllabus_files/SectionsBuilder.js.download"></script>
+        <script src="./syllabus_files/SyllabusBuilder.js.download"></script>
+
+        <!-- ONCE THE PAGE FULLY LOADS INITIALIZE THE SLIDESHOW -->
+        <script>
+            $(document).ready()
+            {
+                buildPage("Syllabus", ".");
+                buildOfficeHours();
+                buildSections();
+                buildSyllabus();
+            }
+        </script>
+    <link rel="shortcut icon" href="https://www3.cs.stonybrook.edu/~cse219/images/SBUShieldFavicon.ico"></head>
+
+    <body>
+        <div id="content">
+            <div id="navbar"><a id="navbar_image_link" href="http://www.stonybrook.edu/"><img class="sbu_navbar" alt="http://www.stonybrook.edu" src="./syllabus_files/SBUDarkRedShieldLogo.png"></a><a class="nav" href="https://www3.cs.stonybrook.edu/~cse219/index.html" id="home_link">Home</a><a class="open_nav" href="https://www3.cs.stonybrook.edu/~cse219/syllabus.html" id="syllabus_link">Syllabus</a><a class="nav" href="https://www3.cs.stonybrook.edu/~cse219/schedule.html" id="schedule_link">Schedule</a><a class="nav" href="https://www3.cs.stonybrook.edu/~cse219/hws.html" id="hws_link">HWs</a></div>
+
+            <div id="banner">CSE 219 - Fall 2018<br>Computer Science III</div>
+            <div id="desc">
+
+                <div id="custom_syllabus_content">
+
+                    <h3>COURSE DESCRIPTION</h3>
+                    <p id="syllabus_course_description">Development of the basic concepts and techniques from Computer Science I and II into practical programming skills that include a systematic approach to program design, coding, testing, and debugging. Application of these skills to the construction of robust programs of thousands of lines of source code. Use of programming environments and tools to aid in the software development process.</p>
+                    <br>
+
+                    <h3>COURSE TOPICS</h3>
+                    <ul id="syllabus_course_topics">
+                    <li>Programming style and its impact on readability, reliability, maintainability, and portability.</li><li>Decomposing problems into modular designs with simple, narrow interfaces.</li><li>Determining the proper objects in an object-oriented design.</li><li>Selecting appropriate algorithms and data structures.</li><li>Reusing code, including external libraries designed and built by others.</li><li>Learning systematic testing and debugging techniques.</li><li>Maintaining a repository of code during incremental development of a software project.</li><li>Learning how to use threads to synchronize several tasks.</li><li>Improving program performance.</li><li>Making effective use of a programming environment, including:<br><ul><li>Syntax-directed editor</li><li>Build tools</li><li>Debugging tools</li><li>Testing tools</li><li>Source code management tools</li><li>Profiling tools</li></ul></li></ul>
+                    <br>
+
+                    <h3>PREREQUISITES</h3>
+                    <p id="syllabus_prerequisites">You must have taken CSE 214 and received a grade of 'C' or better in order to take this course. In more detail, you are expected to have the following knowledge and skills at the beginning of the course:<br><ul><li>Ability to write programs of a few hundred lines of code in the Java programming language.</li><li>Understanding of fundamental data structures, including lists, binary trees, hash tables, and graphs, and the ability to employ these data structures in the form provided by the standard Java API.</li><li>Ability to construct simple command-based user interfaces, and to use files for the input and output of data.</li><li>Mastery of basic mathematical and geometric reasoning using pre-calculus concepts.</li></ul></p>
+                    <br>
+
+                    <h3>COURSE OUTCOMES</h3>
+                    <p>At the end of the course you should have the following knowledge and skills:</p>
+                    <ul id="syllabus_course_outcomes">
+                    <li>Ability to systematically design, code, debug, and test programs of about two thousand lines of code.</li><li>Sensitivity to the issues of programming style and modularity and their relationship to the construction and evolution of robust software.</li><li>Knowledge of basic ideas and techniques of object-oriented programming.</li><li>Familiarity with the capabilities and use of programming tools such as syntax-directed editors, debuggers, execution profilers, documentation generators, and revison-control systems.</li></ul>
+                    <br>
+
+                    <h3>LECTURES</h3>
+                    <table>
+                        <tbody>
+                            <tr id="lectures_row">
+                            <td class="rec_0 rec_cell"><strong>L01</strong><br>Tuesdays &amp; Thursdays<br>10:00am-11:20pm<br>Humanities 1006<br><br></td></tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <br>
+                    
+                    <h3 id="labs_heading"></h3>
+                    <table>
+                        <tbody id="labs_table">
+                        </tbody>
+                    </table>
+                    <br>
+                    <br>
+                                  
+                    <h3 id="recitations_heading">RECITATIONS</h3>
+                    <table>
+                        <tbody id="recitations_table">
+                        <tr><td class="rec_0"><table><tbody><tr><td valign="top" class="rec_cell"><strong>R06</strong> (McKenna)<br>Mondays, 10:00am-10:53am<br>New CS 115<br></td></tr><tr><td class="ta_cell"><strong>Supervising TA</strong><br><img src="./syllabus_files/LeiSong.jpg" width="100" height="100"><br clear="both">(Lei Song)<br></td><td class="ta_cell"><strong>Supervising TA</strong><br><img src="./syllabus_files/QihongJiang.jpg" width="100" height="100"><br clear="both">(Qihong Jiang)<br></td></tr></tbody></table></td><td class="rec_1"><table><tbody><tr><td valign="top" class="rec_cell"><strong>R07</strong> (McKenna)<br>Wednesdays, 10:00am-10:53am<br>New CS 115<br></td></tr><tr><td class="ta_cell"><strong>Supervising TA</strong><br><img src="./syllabus_files/MankiratGulati.jpg" width="100" height="100"><br clear="both">(Mankirat Gulati)<br></td><td class="ta_cell"><strong>Supervising TA</strong><br><img src="./syllabus_files/SammiWuLeung.jpg" width="100" height="100"><br clear="both">(Sammi Wu Leung)<br></td></tr></tbody></table></td></tr><tr><td class="rec_1"><table><tbody><tr><td valign="top" class="rec_cell"><strong>R08</strong> (McKenna)<br>Wednesdays, 2:30pm-3:23pm<br>New CS 115<br></td></tr><tr><td class="ta_cell"><strong>Supervising TA</strong><br><img src="./syllabus_files/SammiWuLeung.jpg" width="100" height="100"><br clear="both">(Sammi Wu Leung)<br></td><td class="ta_cell"><strong>Supervising TA</strong><br><img src="./syllabus_files/QihongJiang.jpg" width="100" height="100"><br clear="both">(Qihong Jiang)<br></td></tr></tbody></table></td><td></td></tr></tbody>
+                    </table>
+                    <br>
+                    <br>
+
+                    <h3>INSTRUCTOR</h3>                    
+                    <table>
+                        <tbody><tr>
+                            <td id="instructor_data"><a href="http://www.cs.stonybrook.edu/~richard">Richard McKenna</a><br><strong>richard@cs.stonybrook.edu</strong><br>New CS 216<br><strong>Office Hours:</strong><br><table><tbody><tr><td><strong>--Tuesday</strong></td><td class="instructor_time">1:00pm-2:20pm</td></tr><tr><td><strong>--Wednesday</strong></td><td class="instructor_time">2pm-3pm</td></tr><tr><td><strong>--Thursday</strong></td><td class="instructor_time">1:00pm-2:20pm</td></tr></tbody></table></td>
+                            <td id="instructor_photo"><img src="./syllabus_files/RichardMcKenna.jpg" alt="Richard McKenna" +="" class="instructor_photo"></td>
+                        </tr>
+                    </tbody></table>
+                    <br>
+                    <br>
+
+                    <h3 id="graders">GRAD TEACHING ASSISTANTS (Grading Appointments)</h3>
+
+                    <table>
+                        <tbody id="grad_tas">
+                        <tr><td class="tas"><img width="100" height="100" src="./syllabus_files/AarinChase.jpg" alt="Aarin Chase"><br><strong>Aarin Chase</strong><br><span class="email">Aarin.Chase@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/BoCao.jpg" alt="Bo Cao"><br><strong>Bo Cao</strong><br><span class="email">Bo.Cao.1@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/KahoKui.jpg" alt="Kaho Kui"><br><strong>Kaho Kui</strong><br><span class="email">kaho.kui@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/RichardHuang.jpg" alt="Richard Huang"><br><strong>Richard Huang</strong><br><span class="email">yueyang.huang@stonybrook.edu</span><br><br><br></td></tr></tbody>
+                    </table>
+                    <br>
+                    <br>
+
+                    <h3 id="tas">UNDERGRAD TEACHING ASSISTANTS (Help)</h3>
+
+                    <table>
+                        <tbody id="undergrad_tas">
+                        <tr><td class="tas"><img width="100" height="100" src="./syllabus_files/AbrahamRosloff.jpg" alt="Abraham Rosloff"><br><strong>Abraham Rosloff</strong><br><span class="email">abraham.rosloff@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/AnghelDeLasCasas.jpg" alt="Anghel De Las Casas"><br><strong>Anghel De Las Casas</strong><br><span class="email">anghel.delascasas@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/DhruvSheth.jpg" alt="Dhruv Sheth"><br><strong>Dhruv Sheth</strong><br><span class="email">dhruv.sheth@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/HengAnLin.jpg" alt="Heng An Lin"><br><strong>Heng An Lin</strong><br><span class="email">Hengan.lin@stonybrook.edu</span><br><br><br></td></tr><tr><td class="tas"><img width="100" height="100" src="./syllabus_files/LeiSong.jpg" alt="Lei Song"><br><strong>Lei Song</strong><br><span class="email">lei.song@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/MankiratGulati.jpg" alt="Mankirat Gulati"><br><strong>Mankirat Gulati</strong><br><span class="email">mankirat.gulati@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/MelanieLogan.jpg" alt="Melanie Logan"><br><strong>Melanie Logan</strong><br><span class="email">melanie.logan@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/MichaelMcDonagh.jpg" alt="Michael McDonagh"><br><strong>Michael McDonagh</strong><br><span class="email">Michael.J.McDonagh@stonybrook.edu</span><br><br><br></td></tr><tr><td class="tas"><img width="100" height="100" src="./syllabus_files/QihongJiang.jpg" alt="Qihong Jiang"><br><strong>Qihong Jiang</strong><br><span class="email">qihong.jiang@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/SammiWuLeung.jpg" alt="Sammi Wu Leung"><br><strong>Sammi Wu Leung</strong><br><span class="email">sammi.wuleung@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/StephenChen.jpg" alt="Stephen Chen"><br><strong>Stephen Chen</strong><br><span class="email">stephen.chen@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/WeihaoLi.jpg" alt="Weihao Li"><br><strong>Weihao Li</strong><br><span class="email">weihao.li@stonybrook.edu</span><br><br><br></td></tr><tr><td class="tas"><img width="100" height="100" src="./syllabus_files/XiangyingLiu.jpg" alt="Xiangying Liu"><br><strong>Xiangying Liu</strong><br><span class="email">xiangying.liu@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/XiaoxiaoLiu.jpg" alt="Xiaoxiao Liu"><br><strong>Xiaoxiao Liu</strong><br><span class="email">xiao.x.liu@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/ZengxianLin.jpg" alt="Zengxian Lin"><br><strong>Zengxian Lin</strong><br><span class="email">zengxian.lin@stonybrook.edu</span><br><br><br></td><td class="tas"><img width="100" height="100" src="./syllabus_files/ZihaoWang.jpg" alt="Zihao Wang"><br><strong>Zihao Wang</strong><br><span class="email">zihao.wang.3@stonybrook.edu</span><br><br><br></td></tr></tbody>
+                    </table>
+                    <br>
+                    <br>
+
+                    <h3 id="office_hours_grid">OFFICE HOURS (in Old CS 2217)</h3>
+                    <table class="office_hours_schedule" cellspacing="0" border="1">
+                        <tbody id="office_hours_table">
+                            <tr>
+                                <th class="sch" width="150px">Start Time</th>
+                                <th class="sch" width="150px">End Time</th>
+                                <th class="sch" width="200px">MONDAY</th>
+                                <th class="sch" width="200px">TUESDAY</th>
+                                <th class="sch" width="200px">WEDNESDAY</th>
+                                <th class="sch" width="200px">THURSDAY</th>
+                                <th class="sch" width="200px">FRIDAY</th>
+                            </tr>                        
+                        <tr><td>8:00am</td><td>8:30am</td><td id="MONDAY_8_00am" class="time">Lei Song<br></td><td id="TUESDAY_8_00am" class="time">Xiangying Liu<br></td><td id="WEDNESDAY_8_00am" class="time">Zengxian Lin<br></td><td id="THURSDAY_8_00am" class="time">Xiangying Liu<br></td><td id="FRIDAY_8_00am" class="time">Lei Song<br></td></tr><tr><td>8:30am</td><td>9:00am</td><td id="MONDAY_8_30am" class="time">Lei Song<br></td><td id="TUESDAY_8_30am" class="time">Xiangying Liu<br></td><td id="WEDNESDAY_8_30am" class="time">Zengxian Lin<br></td><td id="THURSDAY_8_30am" class="time">Xiangying Liu<br></td><td id="FRIDAY_8_30am" class="time">Lei Song<br></td></tr><tr><td>9:00am</td><td>9:30am</td><td id="MONDAY_9_00am" class="time">Lei Song<br></td><td id="TUESDAY_9_00am" class="time">Xiangying Liu<br></td><td id="WEDNESDAY_9_00am" class="time">Zengxian Lin<br></td><td id="THURSDAY_9_00am" class="time">Xiangying Liu<br></td><td id="FRIDAY_9_00am" class="time">Lei Song<br></td></tr><tr><td>9:30am</td><td>10:00am</td><td id="MONDAY_9_30am" class="time">Lei Song<br></td><td id="TUESDAY_9_30am" class="open"></td><td id="WEDNESDAY_9_30am" class="time">Zengxian Lin<br></td><td id="THURSDAY_9_30am" class="open"></td><td id="FRIDAY_9_30am" class="time">Lei Song<br></td></tr><tr><td>10:00am</td><td>10:30am</td><td id="MONDAY_10_00am" class="time">Melanie Logan<br></td><td id="TUESDAY_10_00am" class="lecture">Lecture</td><td id="WEDNESDAY_10_00am" class="time">Melanie Logan<br></td><td id="THURSDAY_10_00am" class="lecture">Lecture</td><td id="FRIDAY_10_00am" class="time">Xiangying Liu<br></td></tr><tr><td>10:30am</td><td>11:00am</td><td id="MONDAY_10_30am" class="time">Melanie Logan<br></td><td id="TUESDAY_10_30am" class="lecture">Lecture</td><td id="WEDNESDAY_10_30am" class="time">Melanie Logan<br></td><td id="THURSDAY_10_30am" class="lecture">Lecture</td><td id="FRIDAY_10_30am" class="time">Xiangying Liu<br></td></tr><tr><td>11:00am</td><td>11:30am</td><td id="MONDAY_11_00am" class="time">Melanie Logan<br></td><td id="TUESDAY_11_00am" class="lecture">Lecture</td><td id="WEDNESDAY_11_00am" class="time">Melanie Logan<br></td><td id="THURSDAY_11_00am" class="lecture">Lecture</td><td id="FRIDAY_11_00am" class="time">Xiangying Liu<br></td></tr><tr><td>11:30am</td><td>12:00pm</td><td id="MONDAY_11_30am" class="open"></td><td id="TUESDAY_11_30am" class="open"></td><td id="WEDNESDAY_11_30am" class="time">Melanie Logan<br></td><td id="THURSDAY_11_30am" class="time">Abraham Rosloff<br></td><td id="FRIDAY_11_30am" class="time">Xiangying Liu<br></td></tr><tr><td>12:00pm</td><td>12:30pm</td><td id="MONDAY_12_00pm" class="time">Michael McDonagh<br>Zihao Wang<br></td><td id="TUESDAY_12_00pm" class="open"></td><td id="WEDNESDAY_12_00pm" class="time">Melanie Logan<br>Michael McDonagh<br></td><td id="THURSDAY_12_00pm" class="time">Abraham Rosloff<br>Weihao Li<br></td><td id="FRIDAY_12_00pm" class="time">Heng An Lin<br></td></tr><tr><td>12:30pm</td><td>1:00pm</td><td id="MONDAY_12_30pm" class="time">Michael McDonagh<br>Zihao Wang<br></td><td id="TUESDAY_12_30pm" class="time">Anghel De Las Casas<br></td><td id="WEDNESDAY_12_30pm" class="time">Melanie Logan<br>Michael McDonagh<br></td><td id="THURSDAY_12_30pm" class="time">Abraham Rosloff<br>Weihao Li<br></td><td id="FRIDAY_12_30pm" class="time">Heng An Lin<br></td></tr><tr><td>1:00pm</td><td>1:30pm</td><td id="MONDAY_1_00pm" class="time">Michael McDonagh<br>Zihao Wang<br></td><td id="TUESDAY_1_00pm" class="time">Richard McKenna<br>Anghel De Las Casas<br></td><td id="WEDNESDAY_1_00pm" class="time">Melanie Logan<br>Michael McDonagh<br>Qihong Jiang<br></td><td id="THURSDAY_1_00pm" class="time">Richard McKenna<br></td><td id="FRIDAY_1_00pm" class="time">Heng An Lin<br></td></tr><tr><td>1:30pm</td><td>2:00pm</td><td id="MONDAY_1_30pm" class="time">Michael McDonagh<br>Sammi Wu Leung<br></td><td id="TUESDAY_1_30pm" class="time">Richard McKenna<br>Anghel De Las Casas<br></td><td id="WEDNESDAY_1_30pm" class="time">Michael McDonagh<br>Qihong Jiang<br></td><td id="THURSDAY_1_30pm" class="time">Richard McKenna<br></td><td id="FRIDAY_1_30pm" class="time">Heng An Lin<br></td></tr><tr><td>2:00pm</td><td>2:30pm</td><td id="MONDAY_2_00pm" class="time">Michael McDonagh<br>Sammi Wu Leung<br></td><td id="TUESDAY_2_00pm" class="time">Richard McKenna<br>Mankirat Gulati<br></td><td id="WEDNESDAY_2_00pm" class="time">Richard McKenna<br>Michael McDonagh<br>Qihong Jiang<br></td><td id="THURSDAY_2_00pm" class="time">Richard McKenna<br></td><td id="FRIDAY_2_00pm" class="time">Heng An Lin<br></td></tr><tr><td>2:30pm</td><td>3:00pm</td><td id="MONDAY_2_30pm" class="time">Sammi Wu Leung<br></td><td id="TUESDAY_2_30pm" class="time">Mankirat Gulati<br></td><td id="WEDNESDAY_2_30pm" class="time">Richard McKenna<br>Abraham Rosloff<br></td><td id="THURSDAY_2_30pm" class="time">Dhruv Sheth<br>Weihao Li<br></td><td id="FRIDAY_2_30pm" class="time">Heng An Lin<br></td></tr><tr><td>3:00pm</td><td>3:30pm</td><td id="MONDAY_3_00pm" class="time">Sammi Wu Leung<br></td><td id="TUESDAY_3_00pm" class="time">Mankirat Gulati<br></td><td id="WEDNESDAY_3_00pm" class="time">Abraham Rosloff<br></td><td id="THURSDAY_3_00pm" class="time">Dhruv Sheth<br>Weihao Li<br></td><td id="FRIDAY_3_00pm" class="time">Heng An Lin<br></td></tr><tr><td>3:30pm</td><td>4:00pm</td><td id="MONDAY_3_30pm" class="time">Anghel De Las Casas<br></td><td id="TUESDAY_3_30pm" class="time">Mankirat Gulati<br>Zihao Wang<br></td><td id="WEDNESDAY_3_30pm" class="time">Abraham Rosloff<br>Dhruv Sheth<br></td><td id="THURSDAY_3_30pm" class="time">Dhruv Sheth<br>Weihao Li<br></td><td id="FRIDAY_3_30pm" class="time">Heng An Lin<br></td></tr><tr><td>4:00pm</td><td>4:30pm</td><td id="MONDAY_4_00pm" class="time">Anghel De Las Casas<br></td><td id="TUESDAY_4_00pm" class="time">Mankirat Gulati<br>Zihao Wang<br></td><td id="WEDNESDAY_4_00pm" class="time">Dhruv Sheth<br>Sammi Wu Leung<br></td><td id="THURSDAY_4_00pm" class="time">Dhruv Sheth<br>Weihao Li<br></td><td id="FRIDAY_4_00pm" class="time">Heng An Lin<br></td></tr><tr><td>4:30pm</td><td>5:00pm</td><td id="MONDAY_4_30pm" class="time">Anghel De Las Casas<br></td><td id="TUESDAY_4_30pm" class="time">Mankirat Gulati<br></td><td id="WEDNESDAY_4_30pm" class="time">Dhruv Sheth<br>Sammi Wu Leung<br></td><td id="THURSDAY_4_30pm" class="time">Dhruv Sheth<br>Weihao Li<br></td><td id="FRIDAY_4_30pm" class="time">Heng An Lin<br></td></tr><tr><td>5:00pm</td><td>5:30pm</td><td id="MONDAY_5_00pm" class="time">Anghel De Las Casas<br></td><td id="TUESDAY_5_00pm" class="time">Mankirat Gulati<br></td><td id="WEDNESDAY_5_00pm" class="time">Dhruv Sheth<br>Qihong Jiang<br></td><td id="THURSDAY_5_00pm" class="time">Zihao Wang<br></td><td id="FRIDAY_5_00pm" class="time">Zengxian Lin<br></td></tr><tr><td>5:30pm</td><td>6:00pm</td><td id="MONDAY_5_30pm" class="time">Anghel De Las Casas<br></td><td id="TUESDAY_5_30pm" class="time">Mankirat Gulati<br></td><td id="WEDNESDAY_5_30pm" class="time">Dhruv Sheth<br>Qihong Jiang<br></td><td id="THURSDAY_5_30pm" class="time">Zihao Wang<br></td><td id="FRIDAY_5_30pm" class="time">Zengxian Lin<br></td></tr><tr><td>6:00pm</td><td>6:30pm</td><td id="MONDAY_6_00pm" class="time">Xiaoxiao Liu<br></td><td id="TUESDAY_6_00pm" class="time">Sammi Wu Leung<br></td><td id="WEDNESDAY_6_00pm" class="time">Qihong Jiang<br>Xiaoxiao Liu<br></td><td id="THURSDAY_6_00pm" class="time">Zihao Wang<br></td><td id="FRIDAY_6_00pm" class="time">Zengxian Lin<br></td></tr><tr><td>6:30pm</td><td>7:00pm</td><td id="MONDAY_6_30pm" class="time">Xiaoxiao Liu<br></td><td id="TUESDAY_6_30pm" class="time">Sammi Wu Leung<br></td><td id="WEDNESDAY_6_30pm" class="time">Xiaoxiao Liu<br></td><td id="THURSDAY_6_30pm" class="time">Abraham Rosloff<br></td><td id="FRIDAY_6_30pm" class="time">Zengxian Lin<br></td></tr><tr><td>7:00pm</td><td>7:30pm</td><td id="MONDAY_7_00pm" class="time">Xiaoxiao Liu<br></td><td id="TUESDAY_7_00pm" class="time">Sammi Wu Leung<br></td><td id="WEDNESDAY_7_00pm" class="time">Xiaoxiao Liu<br></td><td id="THURSDAY_7_00pm" class="time">Abraham Rosloff<br></td><td id="FRIDAY_7_00pm" class="time">Zengxian Lin<br></td></tr><tr><td>7:30pm</td><td>8:00pm</td><td id="MONDAY_7_30pm" class="time">Xiaoxiao Liu<br></td><td id="TUESDAY_7_30pm" class="time">Sammi Wu Leung<br></td><td id="WEDNESDAY_7_30pm" class="time">Xiaoxiao Liu<br></td><td id="THURSDAY_7_30pm" class="time">Abraham Rosloff<br></td><td id="FRIDAY_7_30pm" class="time">Zengxian Lin<br></td></tr><tr><td>8:00pm</td><td>8:30pm</td><td id="MONDAY_8_00pm" class="time">Xiaoxiao Liu<br></td><td id="TUESDAY_8_00pm" class="time">Zihao Wang<br></td><td id="WEDNESDAY_8_00pm" class="time">Xiaoxiao Liu<br></td><td id="THURSDAY_8_00pm" class="time">Abraham Rosloff<br></td><td id="FRIDAY_8_00pm" class="time">Stephen Chen<br></td></tr><tr><td>8:30pm</td><td>9:00pm</td><td id="MONDAY_8_30pm" class="open"></td><td id="TUESDAY_8_30pm" class="time">Zihao Wang<br></td><td id="WEDNESDAY_8_30pm" class="time">Stephen Chen<br></td><td id="THURSDAY_8_30pm" class="time">Stephen Chen<br></td><td id="FRIDAY_8_30pm" class="time">Stephen Chen<br></td></tr><tr><td>9:00pm</td><td>9:30pm</td><td id="MONDAY_9_00pm" class="open"></td><td id="TUESDAY_9_00pm" class="open"></td><td id="WEDNESDAY_9_00pm" class="time">Stephen Chen<br></td><td id="THURSDAY_9_00pm" class="time">Stephen Chen<br></td><td id="FRIDAY_9_00pm" class="time">Stephen Chen<br></td></tr><tr><td>9:30pm</td><td>10:00pm</td><td id="MONDAY_9_30pm" class="open"></td><td id="TUESDAY_9_30pm" class="open"></td><td id="WEDNESDAY_9_30pm" class="open"></td><td id="THURSDAY_9_30pm" class="open"></td><td id="FRIDAY_9_30pm" class="time">Stephen Chen<br></td></tr><tr><td>10:00pm</td><td>10:30pm</td><td id="MONDAY_10_00pm" class="open"></td><td id="TUESDAY_10_00pm" class="open"></td><td id="WEDNESDAY_10_00pm" class="open"></td><td id="THURSDAY_10_00pm" class="open"></td><td id="FRIDAY_10_00pm" class="time">Stephen Chen<br></td></tr><tr><td>10:30pm</td><td>11:00pm</td><td id="MONDAY_10_30pm" class="open"></td><td id="TUESDAY_10_30pm" class="open"></td><td id="WEDNESDAY_10_30pm" class="open"></td><td id="THURSDAY_10_30pm" class="open"></td><td id="FRIDAY_10_30pm" class="time">Stephen Chen<br></td></tr></tbody>
+                    </table>
+                    <br> 
+                    <br>
+
+                    <h3>TEXTBOOKS</h3>                    
+                    <div id="textbook_data"><a href="http://proquestcombo.safaribooksonline.com.proxy.library.stonybrook.edu/0596008678"><img class="textbook_image" width="100" height="125" src="./syllabus_files/HeadFirstOOAAD.jpg"></a><a href="http://proquestcombo.safaribooksonline.com.proxy.library.stonybrook.edu/0596008678"><em>Head First Object Oriented Analysis and Design</em></a><br>by <strong>Brett McLaughlin</strong>, <strong>Gary Pollice</strong>, <strong>David West</strong><br>Published by O'Reilly Media, Inc., 2006<br clear="both"><br><br><a href="http://proquestcombo.safaribooksonline.com.proxy.library.stonybrook.edu/0596007124"><img class="textbook_image" width="100" height="125" src="./syllabus_files/HeadFirstDesignPatterns.gif"></a><a href="http://proquestcombo.safaribooksonline.com.proxy.library.stonybrook.edu/0596007124"><em>Head First Design Patterns</em></a><br>by <strong>Eric T Freeman</strong>, <strong>Elisabeth Robson</strong>, <strong>Bert Bates</strong>, <strong>Kathy Sierra</strong><br>Published by O'Reilly Media, Inc., 2004<br clear="both"><br><br></div>
+                    <br clear="all">
+                    <br>
+
+
+                    <h3>GRADED COMPONENTS</h3>                    
+                    <ul id="graded_components"><li><strong>Recitations</strong> - Students will attend weekly recitations that will introduce use of essential development tools and will require completion of an exercise for submission.<br><br></li><li><strong>Homework Assignments</strong> - The assignments will develop a students ability to design and implement object-oriented systems. Grading will be based on functionality and proper use specific tools. Submitted code that does not compile will receive no credit. Late submissions will NOT be accepted. Programming assignments will be handed in electronically, instructions for which will be provided early in the semester.<br><br></li><li><strong>Final Project</strong> - The assignments will build to the final project, which will be a fully functioning application.<br><br></li><li><strong>Midterm Exam</strong> - The midterm will cover all lecture, quizzes, and homework materials covered during the first 1/2 of the semester.<br><br></li><li><strong>Final Exam</strong> - The final will be cumulative and will cover all lecture, reading, and homework material.<br><br></li></ul>
+                    <br>
+
+                    <h3>GRADING BREAKDOWN</h3>                    
+                    <table id="grading_breakdown"><tbody><tr><td>Recitations</td><td align="right">10%</td><td></td></tr><tr><td>Homework Assignments</td><td align="right">20%</td><td></td></tr><tr><td>Final Project</td><td align="right">20%</td><td></td></tr><tr><td>Midterm Exam</td><td align="right">20%</td><td></td></tr><tr><td>Final Exam</td><td align="right">30%</td><td></td></tr><tr class="grading_total"><td></td><td align="right"><strong>100 %</strong></td></tr></tbody></table>
+                    <p id="grading_note"><strong>Note CEAS Policy:</strong> The Pass/No Credit (P/NC) option is not available for this course.</p>
+                    <br>                    
+
+                    <h3>ACADEMIC DISHONESTY</h3>
+                    <div id="academic_dishonesty">You may <em>discuss</em> the homework in this course with anyone you like, however each student's submissionmust be ones own work.<br><br>The College of Engineering and Applied Sciences regards academic dishonesty as a very serious matter, and provides for substantial penalties in such cases. For more information, obtain a copy of the CEAS guidelines on academic dishonesty from the CEAS office.<br><br><strong>Be advised that any evidence of academic dishonesty will be treated with utmost seriousness. If you have a situation that may tempt you into doing something academically dishonest, resist the urge and speak with your instructor during office hours for help.</strong><br><br></div>
+                    <br>
+
+                    <h3>SPECIAL ASSISTANCE</h3>
+                    <div id="special_assistance">If you have a physical, psychological, medical or learning disability that may impact on your ability to carry out assigned course work, I would urge that you contact the staff at the <a href="https://www.stonybrook.edu/dss/">Student Accessibility Support Center</a> (SASC) in the ECC building, 632-6748. SASC will review your concerns and determine with you what accommodations are necessary and appropriate. All information and documentation of disability are confidential.<br><br><br><br></div>
+                    <br>
+
+                    <hr>
+
+                    <a id="left_footer_image_link" href="http://www.cs.stonybrook.edu/"><img alt="http://www.cs.stonybrook.edu" src="./syllabus_files/SBUWhiteShieldLogo.jpg" style="float:left"></a>
+                    <a id="right_footer_image_link" href="http://www.cs.stonybrook.edu/"><img alt="http://www.cs.stonybrook.edu" src="./syllabus_files/SBUCSLogo.png" style="float:right"></a>
+                    <p class="footer">Web page created and maintained<br>
+                        by <span id="author_link"><a href="http://www.cs.stonybrook.edu/~richard">Richard McKenna</a></span></p>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    
+</body></html>

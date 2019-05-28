@@ -1,0 +1,32 @@
+
+{
+    "startHour":"9",
+    "endHour":"20",
+    "instructor":{
+        "name":"Shaoib",
+        "link":"google.com",
+        "email":"sh@gmail.com",
+        "room":"101",
+        "photo":"./images/RichardMcKenna.jpg",
+        "hours":[
+            {
+                "day":"Tuesday",
+                "time":"1:00pm-2:20pm"
+            },
+            {
+                "day":"Wednesday",
+                "time":"2pm-3pm"
+            },
+            {
+                "day":"Thursday",
+                "time":"1:00pm-2:20pm"
+            }
+        ]
+    },
+    "grad_tas":[
+    ],
+    "undergrad_tas":[
+    ],
+    "officeHours":[
+    ]
+}
